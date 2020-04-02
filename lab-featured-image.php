@@ -24,9 +24,9 @@ require plugin_dir_path( __FILE__ ) . 'includes/settings.php';
 /* Enqueue admin styles */
 
 function labfi_custom_admin_styles() {
-    wp_enqueue_style('custom-styles', plugins_url('/css/styles.css', __FILE__ ));
+    wp_enqueue_style('labfiPluginStylesheet', plugins_url('/css/styles.css', __FILE__ ));
 	}
-add_action('admin_enqueue_scripts', 'labfi_custom_admin_styles');
+ add_action('admin_enqueue_scripts', 'labfi_custom_admin_styles');  
 
 
 /* Languages */
