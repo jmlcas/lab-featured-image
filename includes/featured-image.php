@@ -61,7 +61,7 @@ if ( !function_exists('labfi_add_thumb_column') && function_exists('add_theme_su
 
     function labfi_add_thumb_column($cols) {
 
-        $cols['thumbnail'] = __('Featured Image');
+        $cols['thumbnail'] = __('Featured image');
 
         return $cols;
     }
